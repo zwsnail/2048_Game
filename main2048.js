@@ -261,7 +261,7 @@ document.addEventListener('touchend',function(event)
 		
 });
 
-function isgameover(){
+function isGameOver(){
     if( nospace( board ) && nomove( board ) ){
         gameover();
     }
